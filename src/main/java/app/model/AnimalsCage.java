@@ -12,7 +12,6 @@ public class AnimalsCage {
     private Animal animal;
 
     @Autowired
-    @Qualifier("extendedTimer")
     private Timer timer;
 
     public Timer getTimer() {
